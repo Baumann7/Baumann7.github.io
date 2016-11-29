@@ -1,6 +1,6 @@
 p {
 color:  #A0A0A0;
-font-size: 25px;
+font-size: 35px;
 text-align: center;
 }
 body{
@@ -13,4 +13,8 @@ h1 {
   text-align: left;
   font-weight: bold;
   background-color: black;
+}
+img {
+    height: auto;
+    max-width: 100%;
 }

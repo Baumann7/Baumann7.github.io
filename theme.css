@@ -1,7 +1,11 @@
-p {
+p1 {
 color:  #A0A0A0;
 font-size: 35px;
 text-align: center;
+p2{
+color: #A0A0A0;
+font-size: 28px;
+text-align: left;
 }
 body{
   background-color: black;

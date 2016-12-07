@@ -28,7 +28,7 @@ img {
     height: auto;
     max-width: 100%;
 }
-ul.tab {
+ul.pill {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -38,10 +38,10 @@ ul.tab {
 }
 
 
-ul.tab li {float: left;}
+ul.pill li {float: left;}
 
 
-ul.tab li a {
+ul.pill li a {
     display: inline-block;
     color: black;
     text-align: center;
@@ -51,7 +51,7 @@ ul.tab li a {
     transition: 0.3s;
     font-size: 25px;
 }
-.tabcontent {
+.pillcontent {
     display: none;
     padding: 6px 12px;
     border: 1px solid #ccc;

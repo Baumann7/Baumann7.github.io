@@ -29,10 +29,25 @@ img {
     max-width: 100%;
 }
 ul.nav.nav-pills {
-    text-align: right;
+    text-align: left;
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #A0A0A0;
+
 }
 
 .nav-pills>li {
     float: none;
     display: inline-block;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    padding: 15px 120px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 25px;
+
 }

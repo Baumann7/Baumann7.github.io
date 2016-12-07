@@ -15,7 +15,7 @@ color: #A0A0A0;
 font-size: 28px;
 text-align: left;
 }
-body{
+body {
   background-color: black;
   font-family: "Courier",courier,monospace;
 }
@@ -40,7 +40,6 @@ ul.nav.nav-pills {
     background-color: #A0A0A0;
     color: black;
 }
-
 .nav-pills>li {
     float: none;
     display: inline-block;
@@ -50,5 +49,4 @@ ul.nav.nav-pills {
     text-decoration: none;
     transition: 0.3s;
     font-size: 25px;
-
 }

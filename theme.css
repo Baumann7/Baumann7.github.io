@@ -51,7 +51,7 @@ ul.pill li a {
     transition: 0.3s;
     font-size: 25px;
 }
-.pillcontent {
+.nav-pills a{
     display: none;
     padding: 6px 12px;
     border: 1px solid #ccc;

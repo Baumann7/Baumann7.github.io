@@ -32,7 +32,24 @@
   <p> For next semester I will be enrolled into Physics 107, English 105, CSE 116, Math 142, and Geography 103. Im very excited to see what
       next semester entails with this new computer engineering classes and the complex math and physics classes I'll be taking.</p>
 </div>
+    function openME(evt, myLife) {
+    var i, tabcontent, tablinks;
     
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+
+    
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    
+    document.getElementById(myLife).style.display = "block";
+    evt.currentTarget.className += " active";
+    }
     
     <p2><u>School</u><br>
   I'm curently a computer engineering major at the UB. I am apart of the Men's Club Volleyball and am also a starter for that team.

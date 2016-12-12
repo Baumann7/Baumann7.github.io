@@ -1,40 +1,40 @@
 p{
-color: #A0A0A0;
+color: white;
 font-size: 28px;
 text-align: left;
 }
 h3{
-color: #A0A0A0;
+color: white;
 font-size: 28px;
 text-align: left;
 }
 p1 {
-color:  #A0A0A0;
+color:  white;
 font-size: 35px;
 text-align: center;
 font-weight:bold;
 margin: 0 auto;
 }
 p2{
-color: #A0A0A0;
+color: white;
 font-size: 28px;
 text-align: left;
 }
 p3{
-color: #A0A0A0;
+color: white;
 font-size: 28px;
 text-align: left;
 }
 body {
-  background-color: black;
+  background-color: #4169e1;
   font-family: "Courier",courier,monospace;
 }
 h1 {
-  color:  #A0A0A0;
+  color:  white;
   font-size: 70px;
   text-align: left;
   font-weight: bold;
-  background-color: black;
+  background-color: #4169e1;
 }
 img {
     height: auto;
@@ -47,7 +47,7 @@ ul.nav.nav-pills {
     padding: 0;
     overflow: hidden;
     border: 1px solid #ccc;
-    background-color: #A0A0A0;
+    background-color: white;
     color: black;
 }
 .nav-pills>li {
